@@ -1,11 +1,11 @@
 {
-  "name": "RelayBoard",
-  "keywords": "relay, relay board",
-  "description": "yet another relay board using PCF857x expansionboard",
-  "homepage": "https://github.com/yapiolibs/relayboard",
+  "name": "RelayBoardStorage",
+  "keywords": "relay, relay board, storage. SPIFFS, JSON",
+  "description": "SPIFFS file storage in JSON format using RelayBoard library",
+  "homepage": "https://github.com/yapiolibs/relayboardstorage",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yapiolibs/relayboard.git"
+    "url": "https://github.com/yapiolibs/relayboardstorage.git"
   },
   "authors": [
     {
@@ -17,7 +17,7 @@
   "dependencies": [
     {
       "name": "Pcf857xExpansionBoard",
-      "version": "https://github.com/yapiolibs/pcf857xexpansionboard"
+      "version": "https://github.com/yapiolibs/relayboard"
     }
   ],
   "version": "0.1",
